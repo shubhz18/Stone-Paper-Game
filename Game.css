@@ -1,0 +1,197 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.players img{
+    height: 100%;
+    width: 100%;
+}
+.bt{
+     background-color: rgb(0, 155, 245);
+     color: rgb(17, 17, 17);
+     border-radius: 10px;
+     font-weight: 700;
+}
+.FinalOutput
+{
+    position: absolute;
+     top: -100px;
+    height: 60%;
+    border: 1px solid rgb(8, 180, 254);
+    width: 20%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: white;
+    font-size: larger; 
+    transform: scale(0.1);
+    transition: 0.4s;  
+    visibility:hidden
+}
+.Popup
+{
+    position: relative;
+    top: -0px;
+    visibility: visible;
+    transform: scale(1);
+}
+.FinalOutput h1
+{
+      text-align: center;
+}
+.emoji
+{
+    /* border: 1px solid black; */
+    height: 50%;
+    width: 90%;
+    border-radius: 20px;
+}
+.emoji img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.FinalOutput p{
+    text-align: center;
+    /* justify-content: center; */
+
+    width: 80%;
+    /* border: 1px solid black; */
+
+
+}
+.FinalOutput button{
+    width: 80%;
+    height: 10%;
+    font-size: medium;
+    background-color: rgb(1, 207, 254);
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 700;
+}
+.main1
+{
+    height: 100vh;
+        width: 100vw;
+        
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* align-content: center; */
+        background-image: linear-gradient(-20deg, #8859cd 0%, #adb14b 100%);
+}
+.container
+{
+    position: absolute;
+    flex-wrap: wrap;
+    height: 88%;
+    border: 3px solid rgb(5, 138, 240);
+    width: 30%;
+    justify-content: space-evenly;
+    text-align: center;
+    border-radius: 10px;
+
+    background: white;
+
+    font-size: larger;
+}
+.option
+{
+    position: relative;
+    top: 30px;
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+    justify-content: center;
+    gap: 50px;
+}
+.container h1{
+    position: relative;
+    font-size: larger;
+    top: 5px;
+}
+.box
+{
+    /* border: 1px solid black; */
+}
+img
+{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+.buttons
+{
+    position: relative;
+    bottom: 250px;
+    display: grid;
+    grid-template-rows: 30px 30px 30px;
+    grid-template-columns: 100px 100px 100px;
+    gap: 50px;
+    justify-content: center;
+    cursor: pointer;
+}
+.players
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.guide
+{
+    position: relative;
+    margin-top: 20px;
+    top: px;
+    bottom: 400px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.team
+{
+    position: relative;
+    bottom: 380px;
+    height: 150px;
+    width: 150px;
+    border: 2px solid rgb(7, 138, 246);
+    border-radius: 10px;
+    
+}
+.result
+{
+    position: relative;
+    bottom: 360px;
+    font-weight: 700;
+    font-size: larger;
+}
+.score 
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+    position:relative;
+    bottom: 330px;
+}
+.re
+{
+    position: absolute;
+    align-items: center;
+    bottom: 10px;
+    right: 110px;
+    width: 50%;
+    height: 7%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: rgb(4, 196, 255);
+    color: black;
+    font-weight: 700;
+}

@@ -15,8 +15,7 @@ A fun and interactive **Stone, Paper, Scissors** game built with **JavaScript**.
 ## **Tech Stack**  
 - **Frontend**: HTML, CSS, JavaScript  
 - **Random Choice Generation**: JavaScript
-
----
+- 🌐 **Hosted Link**: [stone-Paper Game]https://rock-paper-game14.netlify.app/) 
 
 ## **Getting Started**  
 
